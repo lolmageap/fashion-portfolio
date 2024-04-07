@@ -1,1 +1,1 @@
-# fashion-portfolio
+# 민지 이직 포트폴리오 
