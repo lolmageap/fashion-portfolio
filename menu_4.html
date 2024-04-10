@@ -1,0 +1,150 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport"
+        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+  <style>
+    #myP {
+      float: left;
+      width: 22.5%;
+      position: fixed;
+      transform: translate(15%, 15%);
+      letter-spacing: 0.12em;
+      font-weight: normal;
+      font-size: 13px;
+    }
+
+    .prd-detail .fixed {
+      position: fixed;
+      z-index: -999;
+      top: 124px;
+      padding-right: 40px;
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    body, h1, h2, h3, h4, p, li, a {
+      font-family: 'MADE Mirage Medium', source-han-serif-korean, serif;
+      font-weight: normal;
+      letter-spacing: 0.12em;
+    }
+
+    .prd-detail .detail_content {
+      padding-top: 20px;
+      font-family: source-han-serif-korean, serif;
+      letter-spacing: 0.09em;
+    }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      border-spacing: 0;
+      table-layout: fixed;
+      word-wrap: break-word;
+      word-break: keep-all;
+    }
+
+    tbody {
+      display: table-row-group;
+      vertical-align: middle;
+      unicode-bidi: isolate;
+      border-color: inherit;
+    }
+
+    tr {
+      display: table-row;
+      vertical-align: inherit;
+      unicode-bidi: isolate;
+      border-color: inherit;
+    }
+
+    .prd-detail .detail_content td {
+      font-size: 11px;
+      line-height: 2;
+      letter-spacing: 0.09em;
+    }
+
+    .prd-detail .detail_content td {
+      padding: 0 !important;
+    }
+  </style>
+</head>
+<body>
+<div class="prd-detail">
+  <div id="myP" style="opacity: 0; transform: translate(15%, 100px); transition: opacity 2s ease, transform 2s ease;">
+    <p class="detail_title">Blue Ocean Knit Pullover</p>
+    <div class="detail_content">
+      <table border="0" cellpadding="0" cellspacing="0" width="100%">
+        <tbody>
+        <tr>
+          <td style="padding:5px;">Geelong wool 100% 소재를 사용한 피크패턴 배색 풀오버입니다.
+            Geelong wool은 호주 지역에서 생산되는 최상의 고급 울 중 하나로 소프트한 터치감과 가벼우면서도 높은 보온성을 자랑합니다.
+            래글런 소매패턴으로 어깨부터 소매까지 자연스레 떨어지는 핏으로 몸을 보다 정돈되어 보이게 만들어주며 적절한 기장감에 스탠다드 실루엣으로 편안한 착용감을 선사합니다.
+            가슴 부분에는 단조롭지 않은 피크패턴으로 디자인적 디테일 효과를 주었으며 청량한 블루컬러에 아이보리 배색으로 산뜻한 기분이 더했습니다.
+            목을 감싸는 카라 립 조직에는 엣지 배색을 가미해 옷의 분위기를 한층 더 강조하였습니다.
+            화이트 톤과 같은 밝은 컬러 하의와 스타일링 하면 대비되는 컬러감으로 옷을 더욱 돋보이게 연출 가능합니다.
+            겨울 시즌에 봄같은 산뜻한 컬러감으로 어두운 외투 속 기분좋은 데일리 풀오버로 만들어 보세요.
+          </td>
+        </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+  <div class="prd-group2">
+
+
+    <div id="videotalk_area"></div>
+    <p style="text-align: center;">
+    <span class="rte-attach" style="display: block;">
+      <img style="max-width: 50%; width: 30%; height: 500px;" src="./img/KakaoTalk_Photo_2024-04-07-18-59-13 001.jpeg" alt="">
+    </span>
+      <br>
+    </p>
+
+    <p style="text-align: center;">
+      <span class="rte-attach" style="display: block;">
+        <img style="max-width: 50%; width: 30%" src="./img/KakaoTalk_Photo_2024-04-07-18-59-14 002.jpeg" alt="">
+      </span>
+      <br>
+    </p>
+
+    <p style="text-align: center;">
+      <span class="rte-attach" style="display: block;">
+        <img style="max-width: 50%; width: 30%" src="./img/KakaoTalk_Photo_2024-04-07-18-59-14 003.jpeg" alt="">
+      </span>
+      <br>
+    </p>
+
+    <p style="text-align: center;">
+      <span class="rte-attach" style="display: block;">
+        <img style="max-width: 50%; width: 30%;" src="./img/KakaoTalk_Photo_2024-04-07-18-59-16 005.jpeg" alt="">
+      </span>
+      <br>
+    </p>
+
+    <p style="text-align: center;">
+      <span class="rte-attach" style="display: block;">
+        <img style="max-width: 50%; width: 30%;" src="./img/KakaoTalk_Photo_2024-04-07-18-59-15 004.jpeg" alt="">
+      </span>
+      <br>
+    </p>
+
+    <div id="malltb_video_player"
+         style="margin-top: 10px; margin-bottom: 10px; text-align: center; display: none;"></div>
+  </div>
+</div>
+</body>
+<script>
+  const myp = document.getElementById('myP');
+
+  window.onload = function () {
+    myp.style.opacity = 1;
+    myp.style.transform = 'translate(15%, 100px)';
+  }
+</script>
+</html>

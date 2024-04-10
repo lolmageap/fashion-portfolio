@@ -1,0 +1,124 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport"
+        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+  <style>
+    #myP {
+      float: left;
+      width: 22.5%;
+      position: fixed;
+      transform: translate(15%, 15%);
+      letter-spacing: 0.12em;
+      font-weight: normal;
+      font-size: 13px;
+    }
+
+    .prd-detail .fixed {
+      position: fixed;
+      z-index: -999;
+      top: 124px;
+      padding-right: 40px;
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    body, h1, h2, h3, h4, p, li, a {
+      font-family: 'MADE Mirage Medium', source-han-serif-korean, serif;
+      font-weight: normal;
+      letter-spacing: 0.12em;
+    }
+
+    .prd-detail .detail_content {
+      padding-top: 20px;
+      font-family: source-han-serif-korean, serif;
+      letter-spacing: 0.09em;
+    }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      border-spacing: 0;
+      table-layout: fixed;
+      word-wrap: break-word;
+      word-break: keep-all;
+    }
+
+    tbody {
+      display: table-row-group;
+      vertical-align: middle;
+      unicode-bidi: isolate;
+      border-color: inherit;
+    }
+
+    tr {
+      display: table-row;
+      vertical-align: inherit;
+      unicode-bidi: isolate;
+      border-color: inherit;
+    }
+
+    .prd-detail .detail_content td {
+      font-size: 11px;
+      line-height: 2;
+      letter-spacing: 0.09em;
+    }
+
+    .prd-detail .detail_content td {
+      padding: 0 !important;
+    }
+  </style>
+</head>
+<body>
+<div class="prd-detail">
+  <div id="myP" style="opacity: 0; transform: translate(15%, 100px); transition: opacity 2s ease, transform 2s ease;">
+    <p class="detail_title">Creamy Knit Tote Bag</p>
+    <div class="detail_content">
+      <table border="0" cellpadding="0" cellspacing="0" width="100%">
+        <tbody>
+        <tr>
+          <td style="padding:5px;">오묘한 햇살과 닮은 컬러감의 미니 토트 백 입니다.
+            핸드폰, 지갑이나 간단한 소지품을 넣고 다닐 수 있는 적당한 사이즈로 가볍게 들고 다니기 좋습니다.
+            알파카소재를 셀렉하여 원사 특유의 털표현이 부드러운 컬러감을 돋보이게 제작하였으며 몸판과 이어지는 손잡이 쉐입은 밸란스와 곡선을 강조하였습니다.
+          </td>
+        </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+  <div class="prd-group2">
+
+    <div id="videotalk_area"></div>
+    <p style="text-align: center;">
+    <span class="rte-attach" style="display: block;">
+      <img style="max-width: 50%; width: 30%" src="./img/KakaoTalk_Photo_2024-04-07-18-51-40 023.jpeg" alt="">
+    </span>
+      <br>
+    </p>
+
+    <p style="text-align: center;">
+      <span class="rte-attach" style="display: block;">
+        <img style="max-width: 50%; width: 30%" src="./img/KakaoTalk_Photo_2024-04-07-18-51-40 024.jpeg" alt="">
+      </span>
+      <br>
+    </p>
+
+    <div id="malltb_video_player"
+         style="margin-top: 10px; margin-bottom: 10px; text-align: center; display: none;"></div>
+  </div>
+</div>
+</body>
+<script>
+  const myp = document.getElementById('myP');
+
+  window.onload = function () {
+    myp.style.opacity = 1;
+    myp.style.transform = 'translate(15%, 100px)';
+  }
+</script>
+</html>

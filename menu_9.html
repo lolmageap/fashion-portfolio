@@ -1,0 +1,162 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport"
+        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+  <style>
+    #myP {
+      float: left;
+      width: 22.5%;
+      position: fixed;
+      transform: translate(15%, 15%);
+      letter-spacing: 0.12em;
+      font-weight: normal;
+      font-size: 13px;
+    }
+
+    .prd-detail .fixed {
+      position: fixed;
+      z-index: -999;
+      top: 124px;
+      padding-right: 40px;
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    body, h1, h2, h3, h4, p, li, a {
+      font-family: 'MADE Mirage Medium', source-han-serif-korean, serif;
+      font-weight: normal;
+      letter-spacing: 0.12em;
+    }
+
+    .prd-detail .detail_content {
+      padding-top: 20px;
+      font-family: source-han-serif-korean, serif;
+      letter-spacing: 0.09em;
+    }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      border-spacing: 0;
+      table-layout: fixed;
+      word-wrap: break-word;
+      word-break: keep-all;
+    }
+
+    tbody {
+      display: table-row-group;
+      vertical-align: middle;
+      unicode-bidi: isolate;
+      border-color: inherit;
+    }
+
+    tr {
+      display: table-row;
+      vertical-align: inherit;
+      unicode-bidi: isolate;
+      border-color: inherit;
+    }
+
+    .prd-detail .detail_content td {
+      font-size: 11px;
+      line-height: 2;
+      letter-spacing: 0.09em;
+    }
+
+    .prd-detail .detail_content td {
+      padding: 0 !important;
+    }
+  </style>
+</head>
+<body>
+<div class="prd-detail">
+  <div id="myP" style="opacity: 0; transform: translate(15%, 100px); transition: opacity 2s ease, transform 2s ease;">
+    <p class="detail_title">Cotton Candy Striped Pullover</p>
+    <div class="detail_content">
+      <table border="0" cellpadding="0" cellspacing="0" width="100%">
+        <tbody>
+        <tr>
+          <td style="padding:5px;">스트라이프 패턴이 돋보이는 배색 반팔 플오버 입니다.
+            코튼캔디 같은 아이보리와 블루 배색은 소프트한 컬러감이 매력적으로 기분 좋은 느낌을 선사합니다.
+            알파카 블렌드 소재의 헤어리한 텍스쳐감으로 포근하면서도 내추럴한 털 표현이 부드러운 컬러감으로 만들어줍니다.
+            규칙적인 스트라이프 간격이 안정적으로 느껴지며 유행 타지 않는 클래식한 패턴으로 어디에나 쉽게 매칭 가능합니다.
+            숏한 슬리브와 크롭된 기장감은 더욱 발랄한 무드를 연출합니다.
+            부담없는 두께감으로 봄,가을 간절기 시즌에는 단품으로, 겨울에는 이너웨어 레이어링으로 활용하기 추천드리는 아이템입니다.
+          </td>
+        </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+  <div class="prd-group2">
+    <div id="videotalk_area"></div>
+
+    <p style="text-align: center;">
+    <span class="rte-attach" style="display: block;">
+      <img style="max-width: 50%; width: 30%; height: 500px;" src="./img/KakaoTalk_Photo_2024-04-07-18-51-39 017.jpeg" alt="">
+    </span>
+      <br>
+    </p>
+
+    <p style="text-align: center;">
+    <span class="rte-attach" style="display: block;">
+      <img style="max-width: 50%; width: 30%" src="./img/KakaoTalk_Photo_2024-04-07-18-51-40 018.jpeg" alt="">
+    </span>
+      <br>
+    </p>
+
+    <p style="text-align: center;">
+    <span class="rte-attach" style="display: block;">
+      <img style="max-width: 50%; width: 30%" src="./img/KakaoTalk_Photo_2024-04-07-18-51-40 019.jpeg" alt="">
+    </span>
+      <br>
+    </p>
+
+    <p style="text-align: center;">
+    <span class="rte-attach" style="display: block;">
+      <img style="max-width: 50%; width: 30%" src="./img/KakaoTalk_Photo_2024-04-07-18-51-40 020.jpeg" alt="">
+    </span>
+      <br>
+    </p>
+
+    <p style="text-align: center;">
+    <span class="rte-attach" style="display: block;">
+      <img style="max-width: 50%; width: 30%" src="./img/KakaoTalk_Photo_2024-04-07-18-51-40 021.jpeg" alt="">
+    </span>
+      <br>
+    </p>
+
+    <p style="text-align: center;">
+    <span class="rte-attach" style="display: block;">
+      <img style="max-width: 50%; width: 30%" src="./img/KakaoTalk_Photo_2024-04-07-18-51-40 022.jpeg" alt="">
+    </span>
+      <br>
+    </p>
+
+    <p style="text-align: center;">
+    <span class="rte-attach" style="display: block;">
+      <img style="max-width: 50%; width: 30%" src="./img/KakaoTalk_Photo_2024-04-07-18-51-39 016.jpeg" alt="">
+    </span>
+      <br>
+    </p>
+
+    <div id="malltb_video_player"
+         style="margin-top: 10px; margin-bottom: 10px; text-align: center; display: none;"></div>
+  </div>
+</div>
+</body>
+<script>
+  const myp = document.getElementById('myP');
+
+  window.onload = function () {
+    myp.style.opacity = 1;
+    myp.style.transform = 'translate(15%, 100px)';
+  }
+</script>
+</html>
