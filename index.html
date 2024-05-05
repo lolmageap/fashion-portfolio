@@ -191,31 +191,29 @@
   <div>
     <h2 class="title">My Portfolio</h2>
   </div>
-  <div class="mainCampaign aos-init aos-animate" data-aos="fade-up" data-aos-duration="1000">
-
-    <h2 style="padding-bottom: 0; margin-bottom: 0;">수편기로 직접 디자인.제작하며 만든 옷입니다.</h2>
-    <h3 style="padding-top: 0; margin-top: 0;">
-      <div id="MS_WritenBySEB"><p class="MsoNormal"><span lang="EN-US">판매하는 형식으로 구성해 만들어 봤습니다.</span>
-      </p></div>
-    </h3>
+  <div class="mainCampaign aos-init aos-animate" data-aos="fade-up" data-aos-duration="1000" style="display: flex;">
 
     <div style="width:57%; display:inline-block; position:relative">
-      <img src="https://cdn3-aka.makeshop.co.kr/design/urbanic30/2021/main-2.jpg" style="opacity:0">
-      <div class="home-intro__docu-previews jsDocumentaryPreviewElements">
-        <video class="preview active" muted="" autoplay="" playsinline="" loop="">
-          <source src="http://img.ouimerci.co.kr/2021_re/Urbanic_Main-Film_Final.mp4">
-        </video>
+<!--      <img src="img/thumbnail.png" style="opacity:0">-->
+      <img src="img/menu_10/KakaoTalk_Photo_2024-04-07-18-51-40%20023.jpeg" style="opacity:0; height: 1000px;">
+      <div class="home-intro__docu-previews jsDocumentaryPreviewElements" style="width: 80%; left: 10% !important;">
+        <img class="preview active" style="min-height: 500px; max-height: 1000px; width: 80%;" src="img/thumbnail3.png">
+<!--        <video class="preview active" muted="" autoplay="" playsinline="" loop="">-->
+<!--          <source src="http://img.ouimerci.co.kr/2021_re/Urbanic_Main-Film_Final.mp4">-->
+<!--        </video>-->
       </div>
     </div>
 
 
     <div class="main3 aos-init aos-animate" data-aos="fade-up" data-aos-duration="1000">
       <a href="#">
-        <img class="MS_prod_img_m"
-             src="https://cdn3-aka.makeshop.co.kr/shopimages/urbanic30/0060030000962.jpg?1694051410">
-        <h4>Baignoire de Urbanic Perfume</h4>
-        <h5>누군가로부터의 소중한 편지처럼, 봉인된 봉투 모양의 하늘색 상자 안에 얼바닉의 향을 담아 소개합니다. ‘베누아 드 얼바닉(Baignoire de Urbanic)‘은 손과 몸을 단장하는 일상의
-          루틴에 산뜻하고 기분 좋은 순간을 선사하고자 탄생한 얼바닉의 첫 번째 향수입니다.</h5>
+<!--        <img class="MS_prod_img_m" src="img/KakaoTalk_Photo_2024-05-01-20-17-52.jpeg">-->
+        <img class="MS_prod_img_m" src="img/img22.png">
+        <h2 style="padding-bottom: 0; margin-bottom: 0; margin-top: 30px;">수편기로 직접 디자인, 제작하며 만든 옷입니다.</h2>
+        <h3 style="padding-top: 0; margin-top: 0;">
+          <div id="MS_WritenBySEB"><p class="MsoNormal"><span lang="EN-US">판매하는 형식으로 구성해 만들어 봤습니다.</span>
+          </p></div>
+        </h3>
       </a>
     </div>
   </div>
@@ -482,13 +480,13 @@
 
     <script>
       const element1 = document.getElementById('item-list-1');
-      const element2 = document.getElementById('item-list-2');
-      const element3 = document.getElementById('item-list-3');
+      // const element2 = document.getElementById('item-list-2');
+      // const element3 = document.getElementById('item-list-3');
 
       function updateElementVisibility() {
         const scrollPosition = window.pageYOffset || document.documentElement.scrollTop;
 
-        if (scrollPosition > 800) {
+        if (scrollPosition > 400) {
           element1.style.opacity = 1;
           element1.style.transform = 'translateY(0)';
         } else {
@@ -519,7 +517,7 @@
 
     </script>
   </div>
-</div>
+<!--</div>-->
 </body>
 
 </html>
